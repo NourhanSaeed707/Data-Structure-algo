@@ -1,4 +1,4 @@
-# What is BFS?
+# What is BFS ?
 - BFS stands for  **Breadth First Search**. It is also known as **level order traversal**. The **Queue data structure** is used for the Breadth First Search traversal. When we use the BFS algorithm for the traversal in a graph, we can consider any node as a root node. **Breadth First Search** goes wide.
 - **Breadth-first search (BFS)** is an important graph search algorithm that is used to solve many problems including finding  **the shortest path in a graph and solving puzzle games (such as Rubik's Cubes)**. Many problems in computer science can be thought of in terms of graphs. For example, analyzing networks, mapping routes, and scheduling are graph problems. Graph search algorithms like breadth-first search are useful for analyzing and solving graph problems.
 
