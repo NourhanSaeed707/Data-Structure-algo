@@ -5,9 +5,6 @@
 #include <iterator> 
 using namespace std;
 
-unordered_map <char, unordered_map<char, int> > mygraph;
-unordered_map <char, bool> visit;
-
 vector<bool> visited; // vector to mark each vertex when we visited.
 vector<vector<int> > g; // 2D vector to have create edge.
 
