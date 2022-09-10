@@ -17,3 +17,16 @@
 
 ![Illustrations-with-traversals-step-3-1](https://user-images.githubusercontent.com/64387352/189497360-13e49c72-1b16-4908-b780-07a97b39f9ce.png)
 
+- Next, we mark node 2 as visited. Its adjacent node 4 is added to the stack.
+
+![Illustrations-with-traversals-step-4-1](https://user-images.githubusercontent.com/64387352/189497390-17960c7d-111b-49bc-9b1b-c8f1269afc53.png)
+
+- Next, we mark 4 which is the top of the stack as visited. Node 4 has only node 2 as its adjacent which is already visited, hence we ignore it.
+
+![Illustrations-with-traversals-step-5-1](https://user-images.githubusercontent.com/64387352/189497397-5911bd5f-77bf-4288-98b2-58ed7740154e.png)
+
+- At this stage, only node 3 is present in the stack. Its adjacent node 0 is already visited, hence we ignore it. Now we mark 3 as visited.
+
+![Illustrations-with-traversals-step-6-1](https://user-images.githubusercontent.com/64387352/189497406-a5e24e3b-2a07-43fb-bbbc-7d033be84b1e.png)
+
+
