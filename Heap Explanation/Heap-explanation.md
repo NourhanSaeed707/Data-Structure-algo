@@ -29,6 +29,12 @@
 ## When would I want to use a heap?
 - We use it whenever you need quick access to the largest (or smallest) item, because that item will always be the first element in the array or at the root of the tree, **heaps** allow you to pull the smallest or the biggest and quickly know the NEXT smallest or biggest. That's why it's called **a Priority Queue**.
 
+# Real world example (not very fair world, though):
+Suppose you have a hospital in which patients are attended based on their ages. The oldest are always attended first, no matter when he/she got in the queue.
+
+You can't just keep track of the oldest one because if you pull he/she out, you don't know the next oldest one. In order to solve this hospital problem, you implement a max heap. This heap is, by definition, partially ordered. This means you cannot sort the patients by their age, but you know that the oldest ones are always in the top, so you can pull a patient out in constant time O(1) and re-balance the heap in log time O(log N).
+
+
 
 
 
