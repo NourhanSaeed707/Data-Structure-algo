@@ -17,4 +17,9 @@
 
 ![min_heap_example](https://user-images.githubusercontent.com/64387352/190857631-33571f70-78e7-45a0-9348-e8e043c3faca.jpg)
 
+## Note:
+- Heap Property: Heap tree can't have both Min Heap and Max Heap if tree has both of (Min heap, MaxHeap) that mean it doesn't heap property
+
+
+
 
