@@ -20,6 +20,11 @@
 ## Note:
 - Heap Property: Heap tree can't have both Min Heap and Max Heap if tree has both of (Min heap, MaxHeap) that mean it doesn't heap property
 
+# Heap Operations:
+- Some of the important operations performed on a heap are described below along with their algorithms.
+## Heapify
+- Heapify is the process of creating a heap data structure from a binary tree. It is used to create a Min-Heap or a Max-Heap.
+
 
 
 
