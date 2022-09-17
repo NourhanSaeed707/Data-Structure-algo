@@ -9,6 +9,12 @@
 ![download](https://user-images.githubusercontent.com/64387352/190855701-77ee4007-df1d-4f9b-a5c5-5e541e3e058a.png)
 
 - **Heap data structure** is a **complete binary tree** that satisfies the heap property, where any given node is:
-- always greater than its child node/s and the key of the root node is the largest among all other nodes. This property is also called **max heap property**.
-- always smaller than the child node/s and the key of the root node is the smallest among all other nodes. This property is also called **min heap property**.
+- **max heap property** Where the value of the root node is greater than or equal to either of its children.
+ 
+![max_heap_example](https://user-images.githubusercontent.com/64387352/190857618-f9c9f5b9-07a4-4ddd-a310-b67ea1f5bdd2.jpg)
+
+- **min heap property**  Where the value of the root node is less than or equal to either of its children..
+
+![min_heap_example](https://user-images.githubusercontent.com/64387352/190857631-33571f70-78e7-45a0-9348-e8e043c3faca.jpg)
+
 
