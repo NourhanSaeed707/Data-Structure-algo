@@ -24,7 +24,7 @@
 - **Heapify:** a process of creating a heap from an array.
 - **Insertion:** process to insert an element in existing heap time complexity O(log N).
 - **Deletion:** deleting the top element of the heap or the highest priority element, and then organizing the heap and returning the element with time complexity O(log N).
-- **Peek:** to check or find the most prior element in the heap, (max or min element for max and min heap).
+- **Peek:** Peek operation returns the maximum element from Max Heap or minimum element from Min Heap without deleting the node.
 
 ## When would I want to use a heap?
 - We use it whenever you need quick access to the largest (or smallest) item, because that item will always be the first element in the array or at the root of the tree, **heaps** allow you to pull the smallest or the biggest and quickly know the NEXT smallest or biggest. That's why it's called **a Priority Queue**.
