@@ -34,6 +34,14 @@ Suppose you have a hospital in which patients are attended based on their ages. 
 
 You can't just keep track of the oldest one because if you pull he/she out, you don't know the next oldest one. In order to solve this hospital problem, you implement a max heap. This heap is, by definition, partially ordered. This means you cannot sort the patients by their age, but you know that the oldest ones are always in the top, so you can pull a patient out in constant time O(1) and re-balance the heap in log time O(log N).
 
+# Heap Data Structure Applications
+- Heap is used while implementing a priority queue.
+- Dijkstra's Algorithm
+- Heap Sort
+
+
+
+
 
 
 
