@@ -51,6 +51,12 @@ You can't just keep track of the oldest one because if you pull he/she out, you 
 
 # Explanation Heapify:
 - first we put largest = i(current node), compare root with its childern if left child > root then largest = left and swap , if right child > root then largest = right and swap. After that call heapify again (arr, largest) to make sure that childern achieve map heap
+- We pick node depend on i = (n / 2 -1) where n = size, and i >= 0.
+- 10 1 23 first w make largest = i (index: 0) ,then if left (index: 1) > root (index: 0) then largest = left, if right(2) > root(0) the largest = r (index : 2 ) after that swap (arr[i], arr[largest]) and call heapift again (arr, largest). To make sure childern achieve map heap.
+- after that arr [23 1 10],  
+- insert 50 arr [23 1 10 50].
+- insert 7 arr [23 1 10 50 7].
+- we start from node 1 depend on (n/2-1), arr = [1,50,7] largest = i(index: 1) if left (index: 3) > root(index: 1) then largest = l, if right (index: 4) > root (index: 1) then largest = r; then swap (arr[i], arr[largest]) and call heapify again(arr,laregst)
 
 # Explanation Insert: 
 - Insert the new element at the end of the tree.
