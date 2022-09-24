@@ -56,7 +56,8 @@ You can't just keep track of the oldest one because if you pull he/she out, you 
 - after that arr [23 1 10],  
 - insert 50 arr [23 1 10 50].
 - insert 7 arr [23 1 10 50 7].
-- we start from node 1 depend on (n/2-1), arr = [1,50,7] largest = i(index: 1) if left (index: 3) > root(index: 1) then largest = l, if right (index: 4) > root (index: 1) then largest = r; then swap (arr[i], arr[largest]) and call heapify again(arr,laregst)
+- we start from node 1 depend on (n/2-1), arr = [1, 50, 7] largest = i(index: 1) if left (index: 3) > root(index: 1) then largest = l, if right (index: 4) > root (index: 1) then largest = r; then swap (arr[i], arr[largest]) and call heapify again(arr,laregst) [50 1 7] then we heapify again at index 0 so arr = [50 23 10 1 7].
+- insert -4 arr [50 23 10 1 7 -4].
 
 # Explanation Insert: 
 - Insert the new element at the end of the tree.
