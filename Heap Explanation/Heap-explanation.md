@@ -39,6 +39,16 @@ You can't just keep track of the oldest one because if you pull he/she out, you 
 - Dijkstra's Algorithm
 - Heap Sort
 
+# Max Heap:
+
+![heap-sort-diagram](https://user-images.githubusercontent.com/64387352/192093122-1597cfa1-e44e-43e6-aa5d-180618f9f46a.png)
+
+- Set current element i as largest.
+- The index of left child is given by 2i + 1 and the right child is given by 2i + 2.
+- If leftChild is greater than currentElement (i.e. element at ith index), set leftChildIndex as largest.
+- If rightChild is greater than element in largest, set rightChildIndex as largest.
+- Swap largest with currentElement
+
 
 
 
