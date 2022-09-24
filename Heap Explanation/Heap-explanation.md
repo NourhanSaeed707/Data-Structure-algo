@@ -49,6 +49,18 @@ You can't just keep track of the oldest one because if you pull he/she out, you 
 - If rightChild is greater than element in largest, set rightChildIndex as largest.
 - Swap largest with currentElement
 
+# Explanation Heapify:
+- first we put largest = i(current node), compare root with its childern if left child > root then largest = left and swap , if right child > root then largest = right and swap. After that call heapify again (arr, largest) to make sure that childern achieve map heap
+
+# Explanation Inser: 
+1- Insert the new element at the end of the tree.
+2- Heapify the tree.
+
+# Explanation delete:
+1- Select the element to be deleted.
+2- Swap it with the last element.
+3- Remove the last element.
+
 
 
 
