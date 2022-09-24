@@ -68,6 +68,10 @@ You can't just keep track of the oldest one because if you pull he/she out, you 
 - Swap it with the last element.
 - Remove the last element.
 
+# Min heap:
+![implement-min-heap-in-c-0-1648786803](https://user-images.githubusercontent.com/64387352/192096545-4aa3da37-02a0-487e-b6a3-d979a3810911.png)
+
+
 
 
 
