@@ -14,3 +14,8 @@
 - Mergesort has the disadvantage that its memory complexity is O(n) whereas Heapsort is O(1). On the other hand, Mergesort is a stable sort and Heapsort is not.
 
 - So, based on that, I would choose Heapsort in preference to Mergesort if I didn't care about the stability of the sort, so as to minimise memory usage. If stability was required, I would choose MergeSort.
+
+# Explanation: 
+- we build **Map heap tree**
+- and loop over arr from the end to start and swap the first elemnt with the last element (largest) [for (int i = n - 1; i >= 0; i--)]
+- and recall heapify function again to make sure to achieve **Max heap tree** heapify(arr, i, 0) where i = last elemnt in unsorted array.
