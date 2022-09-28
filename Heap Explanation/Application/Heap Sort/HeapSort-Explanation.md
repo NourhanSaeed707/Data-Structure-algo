@@ -1,7 +1,10 @@
 # Heap Sort:
 - **Heap sort** is a comparison-based sorting technique based on **Binary Heap data structure**. It is similar to **the selection sort** where we first find the maximum element and place the maximum element at the end. We repeat the same process for remaining element.
-- Time complexity : O(N*logN)
-- Auxiliary space: O(1)
+## Time and Space Complexities:
+- Best Time Complexity: O(n log(n))
+- Average Time Complexity: O(n log(n))
+- Worst Time Complexity: O(n log(n))
+- Best Space Complexity: O(1)
 
 # Where to use it?
 - **Guaranteed O(nlogn) performance**. When you don't necessarily need very fast performance, but guaranteed O(nlogn) performance (e.g. in a game), because Quicksort's O(n^2) can be painfully slow. Why not use Mergesort then? Because it takes O(n) extra memory.
