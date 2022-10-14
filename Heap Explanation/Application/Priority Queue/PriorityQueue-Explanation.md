@@ -8,7 +8,8 @@
 - The element with the highest value is considered the highest priority element. However, in other cases, we can assume the element with the lowest value as the highest priority element.
 - We can also set priorities according to our needs.
 
-![Priority_Queue_c++](https://user-images.githubusercontent.com/64387352/195917509-4f6ea516-6115-42f7-a67f-a93383b67005.png)
+![Capture](https://user-images.githubusercontent.com/64387352/195920170-02106408-68cc-4b4c-8e49-c69be374ca2a.PNG)
+
 
 ## Difference between Priority Queue and Normal Queue:
 -In a queue, **the first-in-first-out** rule is implemented whereas, in a **priority queue**, the values are removed on **the basis of priority**. The element with the highest priority is removed first.
