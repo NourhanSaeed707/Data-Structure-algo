@@ -10,3 +10,6 @@
 
 ![Priority_Queue_c++](https://user-images.githubusercontent.com/64387352/195917509-4f6ea516-6115-42f7-a67f-a93383b67005.png)
 
+## Difference between Priority Queue and Normal Queue:
+-In a queue, **the first-in-first-out** rule is implemented whereas, in a **priority queue**, the values are removed on **the basis of priority**. The element with the highest priority is removed first.
+
