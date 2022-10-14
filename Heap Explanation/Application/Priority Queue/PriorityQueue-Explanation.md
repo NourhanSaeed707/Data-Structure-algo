@@ -17,3 +17,6 @@
 - Priority queue can be implemented using an array, a linked list, a heap data structure, or a binary search tree. Among these data structures, heap data structure provides an efficient implementation of priority queues.
 Hence, we will be using the heap data structure to implement the priority queue in this tutorial. A max-heap is implemented in the following operations.
 
+
+![Capture](https://user-images.githubusercontent.com/64387352/195919467-503b0a2a-8cdc-4c53-a39d-2b32951ff941.png)
+
