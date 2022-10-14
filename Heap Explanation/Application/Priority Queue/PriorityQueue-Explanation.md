@@ -7,3 +7,6 @@
 - Generally, the value of the element itself is considered for assigning the priority. For example,
 - The element with the highest value is considered the highest priority element. However, in other cases, we can assume the element with the lowest value as the highest priority element.
 - We can also set priorities according to our needs.
+
+![Priority_Queue_c++](https://user-images.githubusercontent.com/64387352/195917509-4f6ea516-6115-42f7-a67f-a93383b67005.png)
+
