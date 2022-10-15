@@ -21,3 +21,9 @@ Hence, we will be using the heap data structure to implement the priority queue 
 
 ![Capture](https://user-images.githubusercontent.com/64387352/195919467-503b0a2a-8cdc-4c53-a39d-2b32951ff941.png)
 
+# How to Implement Priority Queue? 
+- Array
+- Linked List
+- Heap data structure
+- Binary search tree
+
