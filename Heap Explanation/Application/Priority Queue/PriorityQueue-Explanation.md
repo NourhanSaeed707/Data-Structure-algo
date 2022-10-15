@@ -40,4 +40,5 @@ In a LinkedList implementation, the entries are sorted in descending order based
 - **push():** This function is used to insert new data into the queue.
 - **pop():** This function removes the element with the highest priority from the queue.
 - **peek() / top():** This function is used to get the highest priority element in the queue without removing it from the queue.
+ ![linked list](https://user-images.githubusercontent.com/64387352/195971760-5a4a3316-93d1-47ee-9f40-b9096ec064ac.PNG)
 
