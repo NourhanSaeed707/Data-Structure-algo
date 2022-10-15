@@ -55,4 +55,13 @@ In a LinkedList implementation, the entries are sorted in descending order based
 A Self-Balancing Binary Search Tree like AVL Tree, Red-Black Tree, etc. can also be used to implement a priority queue. Operations like peek(), insert() and delete() can be performed using BST.
 ![binary tree](https://user-images.githubusercontent.com/64387352/195971898-90a3f46f-86e4-4eb6-bed8-45a752a8dde8.PNG)
 
+# Applications of Priority Queue: 
+- CPU Scheduling
+- Graph algorithms like Dijkstra’s shortest path algorithm, Prim’s Minimum Spanning Tree, etc.
+- Stack Implementation
+- All queue applications where priority is involved.
+- Data compression in Huffman code
+- Event-driven simulation such as customers waiting in a queue.
+- Finding Kth largest/smallest element.
+
 
