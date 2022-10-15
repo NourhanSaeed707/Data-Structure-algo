@@ -34,3 +34,10 @@ Hence, we will be using the heap data structure to implement the priority queue 
 
 ![array](https://user-images.githubusercontent.com/64387352/195971655-84c26619-f160-41db-85d0-88e438f99eff.PNG)
 
+# 2) Implement Priority Queue Using Linked List: 
+In a LinkedList implementation, the entries are sorted in descending order based on their priority. The highest priority element is always added to the front of the priority queue, which is formed using linked lists. The functions like push(), pop(), and peek() are used to implement a priority queue using a linked list and are explained as follows:
+
+- **push():** This function is used to insert new data into the queue.
+- **pop():** This function removes the element with the highest priority from the queue.
+- **peek() / top():** This function is used to get the highest priority element in the queue without removing it from the queue.
+
