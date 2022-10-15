@@ -51,3 +51,8 @@ In a LinkedList implementation, the entries are sorted in descending order based
 - **changePriority(i, p):** Changes the priority of an element pointed by i to p.
 ![binary](https://user-images.githubusercontent.com/64387352/195971838-5641925d-3165-4446-bb7c-063bb840fda3.PNG)
 
+# 4) Implement Priority Queue Using Binary Search Tree: 
+A Self-Balancing Binary Search Tree like AVL Tree, Red-Black Tree, etc. can also be used to implement a priority queue. Operations like peek(), insert() and delete() can be performed using BST.
+![binary tree](https://user-images.githubusercontent.com/64387352/195971898-90a3f46f-86e4-4eb6-bed8-45a752a8dde8.PNG)
+
+
