@@ -40,4 +40,14 @@ In a LinkedList implementation, the entries are sorted in descending order based
 - **pop():** This function removes the element with the highest priority from the queue.
 - **peek() / top():** This function is used to get the highest priority element in the queue without removing it from the queue.
  ![linked list](https://user-images.githubusercontent.com/64387352/195971760-5a4a3316-93d1-47ee-9f40-b9096ec064ac.PNG)
+ 
+ # 3) Implement Priority Queue Using Heaps: 
+ Binary Heap is generally preferred for priority queue implementation because heaps provide better performance compared to arrays or LinkedList. Operations on Binary Heap are as follows: 
+
+- **insert(p):** Inserts a new element with priority p.
+- **extractMax():** Extracts an element with maximum priority.
+- **remove(i):** Removes an element pointed by an iterator i.
+- **getMax():** Returns an element with maximum priority.
+- **changePriority(i, p):** Changes the priority of an element pointed by i to p.
+![binary](https://user-images.githubusercontent.com/64387352/195971838-5641925d-3165-4446-bb7c-063bb840fda3.PNG)
 
