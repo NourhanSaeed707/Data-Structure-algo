@@ -28,6 +28,9 @@ Hence, we will be using the heap data structure to implement the priority queue 
 - Binary search tree
 
 # 1) Implement Priority Queue Using Array: 
+- enqueue(): This function is used to insert new data into the queue.
+- dequeue(): This function removes the element with the highest priority from the queue.
+- peek()/top(): This function is used to get the highest priority element in the queue without removing it from the queue.
 
 ![array](https://user-images.githubusercontent.com/64387352/195971655-84c26619-f160-41db-85d0-88e438f99eff.PNG)
 
